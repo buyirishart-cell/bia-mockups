@@ -1,272 +1,90 @@
 {
  "templates": [
   {
-   "id": "lean-p",
+   "id": "lean",
    "room": "lean",
-   "file": "lean-p.png",
-   "panel": [
-    308,
-    206,
-    703,
-    771
-   ],
-   "outer": [
-    294,
-    191,
-    732,
-    787
-   ],
-   "anchor": "bottom",
+   "file": "lean.png",
    "order": 1,
-   "verified": true
-  },
-  {
-   "id": "bedroom-p",
-   "room": "bedroom",
-   "file": "bedroom-p.png",
-   "panel": [
-    338,
-    287,
-    658,
-    721
-   ],
-   "outer": [
-    324,
-    272,
-    672,
-    735
+   "area": [
+    150,
+    70,
+    874,
+    778
    ],
    "anchor": "bottom",
+   "fill": 0.88,
+   "finish": "wood",
+   "light": "left",
+   "moulding": 0.022
+  },
+  {
+   "id": "bedroom",
+   "room": "bedroom",
+   "file": "bedroom.png",
    "order": 2,
-   "verified": true
+   "area": [
+    90,
+    110,
+    770,
+    588
+   ],
+   "anchor": "bottom",
+   "fill": 0.92,
+   "finish": "wood",
+   "light": "left",
+   "moulding": 0.024
   },
   {
-   "id": "living-p",
+   "id": "living",
    "room": "living",
-   "file": "living-p.png",
-   "panel": [
-    347,
-    91,
-    683,
-    534
-   ],
-   "outer": [
-    335,
-    79,
-    695,
-    546
-   ],
-   "anchor": "center",
+   "file": "living.png",
    "order": 3,
-   "verified": true
-  },
-  {
-   "id": "georgian-p",
-   "room": "georgian",
-   "file": "georgian-p.png",
-   "panel": [
-    364,
-    176,
-    644,
+   "area": [
+    270,
+    120,
+    770,
     505
    ],
-   "outer": [
-    352,
-    162,
-    658,
-    517
-   ],
-   "anchor": "bottom",
-   "order": 5,
-   "verified": true,
-   "max_grow": 1.45
+   "anchor": "center",
+   "fill": 0.88,
+   "finish": "black",
+   "light": "left",
+   "moulding": 0.022
   },
   {
-   "id": "lean-l",
-   "room": "lean",
-   "file": "lean-l.png",
-   "panel": [
-    171,
-    283,
-    875,
-    740
-   ],
-   "outer": [
+   "id": "kitchen",
+   "room": "kitchen",
+   "file": "kitchen.png",
+   "order": 4,
+   "area": [
     150,
-    272,
-    880,
-    748
-   ],
-   "anchor": "bottom",
-   "order": 1,
-   "verified": true,
-   "max_grow": 1.35
-  },
-  {
-   "id": "bedroom-l",
-   "room": "bedroom",
-   "file": "bedroom-l.png",
-   "panel": [
-    155,
-    259,
-    686,
-    650
-   ],
-   "outer": [
-    131,
-    243,
-    703,
-    662
-   ],
-   "anchor": "bottom",
-   "order": 2,
-   "verified": true
-  },
-  {
-   "id": "living-l",
-   "room": "living",
-   "file": "living-l.png",
-   "panel": [
-    255,
-    135,
-    767,
-    451
-   ],
-   "outer": [
-    245,
-    125,
-    780,
-    463
-   ],
-   "anchor": "center",
-   "order": 3,
-   "max_grow": 1.3,
-   "verified": true
-  },
-  {
-   "id": "georgian-l",
-   "room": "georgian",
-   "file": "georgian-l.png",
-   "panel": [
-    230,
-    206,
-    797,
-    484
-   ],
-   "outer": [
-    221,
-    196,
-    806,
-    495
-   ],
-   "anchor": "center",
-   "order": 5,
-   "max_grow": 1.55,
-   "verified": true
-  },
-  {
-   "id": "living-sq",
-   "room": "living",
-   "file": "living-sq.png",
-   "panel": [
-    316,
-    126,
-    692,
-    502
-   ],
-   "outer": [
-    308,
-    117,
-    700,
-    512
-   ],
-   "anchor": "center",
-   "order": 3,
-   "verified": true,
-   "max_grow": 1.3
-  },
-  {
-   "id": "lean-sq",
-   "room": "lean",
-   "file": "lean-sq.png",
-   "panel": [
-    279,
-    249,
-    762,
-    772
-   ],
-   "outer": [
-    263,
-    235,
-    767,
-    776
-   ],
-   "anchor": "bottom",
-   "order": 1,
-   "verified": true,
-   "max_grow": 1.35
-  },
-  {
-   "id": "georgian-p2",
-   "room": "georgian",
-   "file": "georgian-p2.png",
-   "panel": [
-    342,
-    149,
-    624,
-    520
-   ],
-   "outer": [
-    329,
-    135,
-    634,
-    534
-   ],
-   "anchor": "bottom",
-   "order": 5,
-   "verified": true,
-   "max_grow": 1.3
-  },
-  {
-   "id": "kitchen-p",
-   "room": "kitchen",
-   "file": "kitchen-p.png",
-   "panel": [
-    430,
-    126,
-    778,
-    633
-   ],
-   "outer": [
-    420,
-    117,
-    785,
-    640
-   ],
-   "anchor": "bottom",
-   "order": 4,
-   "verified": true
-  },
-  {
-   "id": "kitchen-l",
-   "room": "kitchen",
-   "file": "kitchen-l.png",
-   "panel": [
-    233,
-    225,
-    794,
-    510
-   ],
-   "outer": [
-    226,
-    220,
+    60,
     800,
-    517
+    545
    ],
-   "anchor": "bottom",
-   "order": 4,
-   "max_grow": 1.65,
-   "verified": true
+   "anchor": "center",
+   "fill": 0.9,
+   "finish": "black",
+   "light": "left",
+   "moulding": 0.022
+  },
+  {
+   "id": "georgian",
+   "room": "georgian",
+   "file": "georgian.png",
+   "order": 5,
+   "area": [
+    285,
+    140,
+    690,
+    418
+   ],
+   "anchor": "center",
+   "fill": 0.95,
+   "finish": "white",
+   "light": "left",
+   "moulding": 0.03,
+   "shadow": 0.3
   }
  ]
 }
