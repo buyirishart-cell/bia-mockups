@@ -157,7 +157,8 @@ def main():
         if only and t["room"] not in only:
             continue
         p = t["panel"]; pr = (p[2] - p[0]) / (p[3] - p[1])
-        cost = max(ar / pr, pr / ar)
+        # the frame only ever grows; rank by growth relative to this template's own limit
+        cost = max(ar / pr, pr / ar) / t.get("max_grow", args.max_grow)
         if t["room"] not in rooms or cost < rooms[t["room"]][0]:
             rooms[t["room"]] = (cost, t)
     report = []
